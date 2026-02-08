@@ -111,11 +111,15 @@ dataset
 
 >dataset[['Order Date','Year_Month']].head()
 
+
+
 **Calculating yearly sales trend using group by function**
 ```
-yearly_sales=dataset.groupby(dataset['Order Date'].dt.year)['Sales'].sum()
+yearly_sales=dataset.groupby(dataset['Order Date'].dt.year)['Sales'].sum()   
 print(yearly_sales)
 ```
+#### After Performing Yearly analysis ,we knew that sales are steady from 2015 to 2016 but  there is large increase in 2017 and small increase in 2018
+
 **Lets Visually see the sales trend analysis by Year-Wise** 
 ```
 plt.figure()
