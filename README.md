@@ -154,6 +154,9 @@ plt.ylabel('Total Sales')
 plt.title('Monthly Sales Trend')
 plt.show()
 ```
+#### After Viewing Monthly sales Analysis,We can which sales are incresing and what those particualr categories -So we can solve 
+buisiness problem of customer retention by investing more money in those categories particularly in those months
+
 **Calculating Top Customers by Total sales**
 ```
 top_customer=(
@@ -179,6 +182,8 @@ plt.xlabel('Category')
 plt.ylabel('Total Revenue')
 plt.show()
 ```
+#### This helps to take decisions of whether to invest more money or remove those categoies
+
 **Let's Calculate Region-Wise Total-Revenue Generated**
 ```
 Region_revenue_df=(
@@ -188,6 +193,8 @@ Region_revenue_df=(
 )
 Region_revenue_df
 ```
+#### This analysis helps to decisions on budget planning of each region of particular regions
+
 **Visually Showing Region-Wise Total_Revenue generated Percentage**
 ```
 Region_revenue_df.plot(kind='bar')
@@ -222,6 +229,8 @@ Customer_order_count=(
 )
 Customer_order_count
 ```
+#### Through this customer analysis we can solve problem of customer retention to maintain regular customer 
+
 **Lets check what are the categories and sub-categories and their count of repeated customers purchasing**
 ```
 Category_subcategory=(
@@ -241,6 +250,7 @@ Subcategory_total_revenue=(
 )
 Subcategory_total_revenue
 ```
+#### This analysis helps to solve buisiness problem of in which sub-categories we have to invest more in each category
 
 
 
