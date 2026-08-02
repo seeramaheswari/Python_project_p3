@@ -34,5 +34,9 @@
 
 **Technology in east region generates highest sales and furniture in south generates the least revenue**
 
+## Sales Data Required fields For Training And Testing
+
+
+
 
 
