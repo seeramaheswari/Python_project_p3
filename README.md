@@ -1,10 +1,10 @@
 # Forecasting The Future Sales
 
-## This is our Original Sales Data
+## Original Sales Data
 
+<img width="800" height="400" alt="Image" src="https://github.com/user-attachments/assets/a9ceea8e-6ce7-4691-8fc4-b333f6274ecd" />
 
-
-## Lets Perform Data Cleaning on Superstore Sales Dataset
+## Cleaned Sales Data 
 
 **Imporing required Python Libraries**
 ```
