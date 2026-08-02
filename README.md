@@ -24,7 +24,7 @@
 
 **This image clearly depicting that in which months sales are in high spike of each year**
 
-
+## Total Sales of Category By Region
 
 
 
