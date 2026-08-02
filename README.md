@@ -6,28 +6,11 @@
 
 ## Cleaned Sales Data 
 
-**Imporing required Python Libraries**
-```
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-```
-**Let's First Load The  Superstore dataset**
+<img width="800" height="400" alt="Image" src="https://github.com/user-attachments/assets/eea299ed-43f0-4a1d-8aec-2122e986b881" />
 
->dataset=pd.read_csv(r"C:\Users\mahes\Desktop\python_projects\train.csv")
+## Statistical details of Sales data
 
-**Let's See The SuperStore  Dataset**
 
->dataset
-
-**Display the First 5 Rows of the SuperStore Dataset**
-
->dataset.head(5)
-
-**Display The last 10 Rows of the SuperStore Dataset**
-
->dataset.tail(10)
 
 **Getting information about our dataset like total no of rows,total no of columns,datatype of each column 
 and memory requirement**
