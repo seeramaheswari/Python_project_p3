@@ -10,6 +10,17 @@
 
 ## Statistical details of Sales data
 
+<img width="800" height="400" alt="Image" src="https://github.com/user-attachments/assets/2b64d5ee-0bcf-4a9e-b521-a1397d0c732c" />
+
+**The data has details of orders from the year of 2015 to 2018**
+
+**The above image showing that standard deviation greater than mean value that simply says that sales values are widely dispersed and not closer to the mean value**
+
+**The sales values are between 250 to 22700**
+
+## Total Sales Over The Time By each Year
+
+
 
 
 **Getting information about our dataset like total no of rows,total no of columns,datatype of each column 
