@@ -20,6 +20,11 @@
 
 ## Total Sales Over The Time By each Year
 
+<img width="800" height="400" alt="Image" src="https://github.com/user-attachments/assets/92a47368-eb35-494c-88e1-08ec06b572c2" />
+
+**This image clearly depicting that in which months sales are in high spike of each year**
+
+
 
 
 
