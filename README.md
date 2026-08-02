@@ -36,6 +36,14 @@
 
 ## Sales Data Required fields For Training And Testing
 
+<img width="800" height="400" alt="Image" src="https://github.com/user-attachments/assets/afca831c-557d-4270-a2cd-f390b429abc8" />
+
+**Now this data is used for three purpose,the first one is for training the data model using the data of 2015 to 2017 from the monthly sales data**
+
+**The second purpose is for test the 2018 data by getting from the monthly sales data**
+
+**The third purpose is to get the last three month of data from monthly sales for predicting first month sales of 2019**
+
 
 
 
