@@ -74,6 +74,13 @@
 
 ### Feature importance in making predictions
 
+<img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/a03a25ce-e55e-43d2-a015-97f030501952" />
+
+>With the above image values ,we can understand that has importance with 0.54.
+
+>That means last three months has highest preference in making predictions.
+
+>lag2 has key role in predictions values than lag1 .
 
 ### Predicted Sales of January of 2019
 
