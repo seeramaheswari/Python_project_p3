@@ -1,6 +1,6 @@
  # Forecasting The Future Sales
 
-## Problem Statement: Budget planning of capital for the first month of 2019.
+## Problem Statement: Budget planning of capital  to the categories for the first month of 2019
 
 ### Original Sales Data
 
@@ -30,7 +30,6 @@
 
 >February generates the highest revenue month in 2017 and 2018 years<img width="1600" height="662" alt="Sales_img6" src="https://github.com/user-attachments/assets/76238874-04cc-4f92-967f-d4ef7c1d3ddd" />
 
-
 ### Total Sales of Category By Region
 
 <img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/c0eec271-be9e-4d59-9655-f95f3ad0a76b" />
@@ -54,6 +53,24 @@
 >The second purpose is for test the 2018 data by getting from the monthly sales data
 
 >The third purpose is to get the last three month of data from monthly sales for predicting first month sales of 2019
+
+### original sales and Predicted Sales data of 2018
+
+<img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/7f194cfe-5044-4689-8a24-3dd6e27de664" />
+
+>First we prepare and train the 2015 to 2017 data using the random forest regressor
+
+>Next make predictions on 2018 data to check how much predicted sales and sales match.
+
+>As the actual sales and predicted sales of 2018 are almost perfectly matched.
+
+>And it also shows the average growth value by region and category over the time
+
+>Increase investment on category by region if growth value is 20 or more
+
+>Maintain same investment on category if growth value is less than 20 or zero
+
+>Reduce the investment on category if growth values shows in negative values
 
 
 
