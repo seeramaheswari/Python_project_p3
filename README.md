@@ -72,7 +72,15 @@
 
 >Reduce the investment on category if growth values shows in negative values
 
-### 
+### Predicted Sales of January of 2019
+
+<img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/cff87af3-e482-4ab5-b67c-5337bb6dd896" />
+
+>We used the last three months data of monthly sales for training and make predictions on first month of categories by region data frame we created.
+
+>As the actual sales and predicted sales of 2018 data are almost matched with 0.9 r2_score.
+
+>And this predicted also get the same r2_score ,so we can use it for investment planning.
 
 
 
