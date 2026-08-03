@@ -72,6 +72,9 @@
 
 >Reduce the investment on category if growth values shows in negative values
 
+### Feature importance in making predictions
+
+
 ### Predicted Sales of January of 2019
 
 <img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/cff87af3-e482-4ab5-b67c-5337bb6dd896" />
