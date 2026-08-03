@@ -1,4 +1,4 @@
-# Forecasting The Future Sales
+ # Forecasting The Future Sales
 
 ## Problem Statement: Budget planning of capital for the first month of 2019.
 
@@ -24,27 +24,36 @@
 
 <img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/92a47368-eb35-494c-88e1-08ec06b572c2" />
 
-**This image clearly depicting that in which months sales are in high spike of each year**
+>This image clearly depicting that in which months sales are in high spike of each year
+
+>August generates the highest revenue  month  in 2015 and 2016 years
+
+>February generates the highest revenue month in 2017 and 2018 years<img width="1600" height="662" alt="Sales_img6" src="https://github.com/user-attachments/assets/76238874-04cc-4f92-967f-d4ef7c1d3ddd" />
+
 
 ### Total Sales of Category By Region
 
 <img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/c0eec271-be9e-4d59-9655-f95f3ad0a76b" />
 
-**From the image we can understand the east and west contributes the more revenue among all**
+### The insights from the Category analysis by region
 
-**South was contributing least revenue as compared to the remaining**
+>All categories generates high revenue in east and west region among all regions 
 
-**Technology in east region generates highest sales and furniture in south generates the least revenue**
+>East and west are best performing regions with small differences
+
+>South was contributing least revenue as compared to the remaining
+
+>Technology in east region generates highest sales and furniture in south generates the least revenue
 
 ### Sales Data Required fields For Training And Testing
 
 <img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/afca831c-557d-4270-a2cd-f390b429abc8" />
 
-**Now this data is used for three purpose,the first one is for training the data model using the data of 2015 to 2017 from the monthly sales data**
+>Now this data is used for three purpose, the first one is for training the data model using the data of 2015 to 2017 from the monthly sales data
 
-**The second purpose is for test the 2018 data by getting from the monthly sales data**
+>The second purpose is for test the 2018 data by getting from the monthly sales data
 
-**The third purpose is to get the last three month of data from monthly sales for predicting first month sales of 2019**
+>The third purpose is to get the last three month of data from monthly sales for predicting first month sales of 2019
 
 
 
