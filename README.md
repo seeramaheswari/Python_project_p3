@@ -2,6 +2,102 @@
 
 ## Problem Statement: Budget planning of capital  to the categories for the first month of 2019
 
+## Complete Process Of Sales Prediction of 2019 January 
+
+                  SALES DATA
+                     │
+                     ↓
+            Data Cleaning & Preparation
+                     │
+                     ↓
+          Aggregate Sales Monthly
+                     │
+                     ↓
+       Feature Engineering
+       ├── Month / Quarter
+       ├── Month_Sin / Month_Cos
+       ├── Lag1 / Lag2
+       ├── Rolling3
+       └── Growth %
+                     │
+                     ↓
+             ┌───────────────┐
+             │  2015–2017    │
+             │   Training    │
+             └───────┬───────┘
+                     │
+                     ↓
+              X_train, y_train
+                     │
+          ┌──────────┼──────────┐
+          ↓          ↓          ↓
+     Linear       Random      XGBoost
+    Regression     Forest     Regression
+          │          │          │
+          ↓          ↓          ↓
+       Predict     Predict    Predict
+       2018        2018       2018
+          │          │          │
+          └──────────┼──────────┘
+                     ↓
+              Compare with
+                y_test
+              (actual 2018)
+                     │
+                     ↓
+             MAE / RMSE / R²
+                     │
+                     ↓
+          Compare model performance
+                     │
+                     ↓
+          SELECT BEST MODEL
+          (Linear Regression)
+                     │
+                     ↓
+      ┌──────────────────────────┐
+      │ FINAL MODEL TRAINING     │
+      │        2015–2018         │
+      └────────────┬─────────────┘
+                   │
+                   ↓
+          Prepare 2019 January
+          prediction features
+                   │
+                   ↓
+        Last 3 months of 2018
+        (Oct, Nov, Dec)
+                   │
+                   ↓
+             Create Future Data
+             ├── Year = 2019
+             ├── Month = January
+             ├── Region
+             ├── Category
+             ├── Lag1
+             ├── Lag2
+             ├── Rolling3
+             ├── Month_Sin
+             └── Month_Cos
+                   │
+                   ↓
+            Align features with
+               X_train columns
+                   │
+                   ↓
+          Linear Regression Model
+                   │
+                   ↓
+       Predict January 2019 Sales
+                   │
+                   ↓
+          Predicted Sales by
+          Region + Category
+                   │
+                   ↓
+         Budget / Inventory
+            Recommendation
+
 ### Original Sales Data
 
 <img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/a9ceea8e-6ce7-4691-8fc4-b333f6274ecd" />
